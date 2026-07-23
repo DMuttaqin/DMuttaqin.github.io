@@ -1,310 +1,177 @@
-# ╔══════════════════════════════════════════════════════════════════════╗
-# ║              GitVitae — Portfolio Configuration                      ║
-# ║  This is the only file you need to edit.                             ║
-# ║  Run  pnpm check-config  to catch mistakes before deploying.         ║
-# ╚══════════════════════════════════════════════════════════════════════╝
+siteMode: "portfolio"
+siteUrl: "https://dmuttaqin.github.io"
+showPoweredBy: false
 
-# ╔══════════════════════════════════════════════════════════════════════╗
-# ║  ** FIRST THING TO CHANGE **                                         ║
-# ║                                                                      ║
-# ║  siteMode: "landing"  → shows the GitVitae intro page (default)      ║
-# ║  siteMode: "portfolio" → shows YOUR portfolio                        ║
-# ║                                                                      ║
-# ║  Change it to "portfolio" once you have filled in your details.      ║
-# ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
-showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
+# ── Identity ─────────────────────────────────────────────
+name: "Dani Muttaqin"
+title: "Software Developer • Lead Developer • Project Manager"
+tagline: "Building retail, manufacturing, and ERP solutions with .NET and SQL Server."
+email: "Daniine.100@gmail.com"
+phone: "+62 821-2345-4640"
+location: "Sidoarjo, Jawa Timur, Indonesia"
+avatarUrl: ""
 
-# ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
-# How to add a profile photo (free, no extra account needed):
-#   1. Go to your GitHub repo → click "Add file" → "Upload files"
-#   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
-#   3. After committing, open the file on GitHub and copy the raw URL:
-#      https://raw.githubusercontent.com/YOU/your-repo/main/public/avatar.jpg
-#   4. Paste that URL here.
-# Leave empty to show your initials as a styled placeholder.
+openToWork: true
 
-# ── Resume download ────────────────────────────────────────────────────
-# Optional: link directly to a hosted PDF (Google Drive, Dropbox, etc.)
-# If left blank the navbar "Resume" button opens the built-in resume page
-# where visitors can use "Save PDF" to print their own copy.
-#
-# How to get a direct download link:
-#   1. Visit /resume in your portfolio, click "Save PDF" -> save the file
-#   2. Upload that PDF to Google Drive / Dropbox and copy the direct link
-#   3. Paste the link below and update resumeFileName accordingly
-#
-# resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
-# resumeFileName: "Git_Vitae_Resume.pdf"
-
-# ── Status ─────────────────────────────────────────────────────────────
-openToWork: true         # Shows "Open to Opportunities" banner when true
-
-# ── Theme ──────────────────────────────────────────────────────────────
-defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
-# primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
-                           # Overrides colorPreset above. To find a hex code:
-                           #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
-                           #   → or grab one from coolors.co / your favourite site's colour
+# ── Theme ────────────────────────────────────────────────
+defaultTheme: "system"
+colorPreset: "ocean"
 
 resumeTheme:
-  twoColumn: "indigo"    # Accent color for the two-column resume layout
-  classic: "emerald"     # Accent color for the classic resume layout
+  twoColumn: "ocean"
+  classic: "slate"
 
-contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree.io/f/xxxx)
-                           # or any POST endpoint that accepts {name, email, message}.
-                           # Leave empty to use a pre-filled mailto: link instead.
-
-# ── Section visibility ─────────────────────────────────────────────────
-# Set show: false to hide any section from your portfolio
-sections:
-  - { id: about,          show: true  }
-  - { id: stats,          show: false }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
-  - { id: skills,         show: true  }
-  - { id: languages,      show: true  }
-  - { id: experience,     show: true  }
-  - { id: projects,       show: true  }
-  - { id: education,      show: true  }
-  - { id: certifications, show: true  }
-  - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
-  - { id: contact,        show: true  }
-
-# ── Social links ───────────────────────────── (leave blank to hide) ───
+# ── Social ───────────────────────────────────────────────
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
-  twitter:  ""
-  website:  ""
+  github: "https://github.com/DMuttaqin"
+  linkedin: ""
+  website: ""
 
-# ── About ──────────────────────────────────────────────────────────────
-# Use | for multi-line text. Indent each line by 2 spaces.
+# ── About ────────────────────────────────────────────────
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  Software developer with experience as Lead Developer, Software Implementator,
+  and Project Manager. Experienced in building retail, distributor, and
+  manufacturing systems using VB.NET, C#, ASP.NET, Blazor, and SQL Server.
+  Skilled in system architecture, database optimization, REST API integration,
+  payment gateway integration (QRIS), and leading development teams to deliver
+  business-critical applications on time and with high quality.
 
-
-# ── Stats ──────────────────────────────────────────────────────────────
-# Customise each label and value freely — change "Projects Shipped" to
-# "Active Customers", "Happy Clients", "Open Source Stars", etc.
-# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
-# Remove all entries or set show: false above to hide this section.
+# ── Stats ────────────────────────────────────────────────
 stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+  - { label: "Years Experience", value: 10, suffix: "+" }
+  - { label: "ERP / POS Projects", value: 30, suffix: "+" }
+  - { label: "Database Optimization", value: 80, suffix: "%" }
+  - { label: "Teams Led", value: 5, suffix: "+" }
 
-# Examples of other combinations you can use:
-#   - { label: "Active Users",    value: 10000, suffix: "+" }
-#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
-#   - { label: "Countries",       value: 12,    suffix: ""  }
-
-# ── Languages ──────────────────────────────────────────────────────────
-# level options: Native | Fluent | Conversational | Basic
+# ── Languages ────────────────────────────────────────────
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "Bahasa Indonesia", level: "Native" }
+  - { name: "English", level: "Conversational" }
 
-# ── Skills ─────────────────────────────────────────────────────────────
+# ── Skills ───────────────────────────────────────────────
 skills:
+  - category: "Programming"
+    items: [VB.NET, C#, VB6, ASP.NET, REST API, .NET Core, .NET 8, .NET 9, .NET 10]
+
   - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items: [Blazor, MVC, MVVM]
 
-# ── Experience ─────────────────────────────────────────────────────────
+  - category: "Architecture"
+    items: [CQRS, System Design, Software Architecture]
+
+  - category: "Database"
+    items: [SQL Server, MySQL, SQLite, Query Optimization, Performance Tuning]
+
+  - category: "Reporting & Tools"
+    items: [DevExpress XtraReport, DevExpress GridView, Crystal Reports, BarTender]
+
+  - category: "Integration"
+    items: [REST API Integration, QRIS Integration, InterActive QRIS, Payment Gateway Integration]
+
+  - category: "Project Management"
+    items: [Requirement Gathering, BRD, MoM, Project Tracker, Azure DevOps, Trello]
+
+# ── Experience ───────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "PT GENESYS INTEGRATED INDONESIA"
+    role: "Software Developer • Lead Desktop Developer • Project Manager"
+    period: "Aug 2022 – Present"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
+      Develop and customize retail and manufacturing applications using VB.NET,
+      C#, and SQL Server. Lead desktop development teams, design system
+      architecture, conduct code reviews, and manage project delivery. Gather
+      business requirements, create feature specifications, and communicate
+      progress reports to stakeholders.
     highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      - Improved database performance by 20–80% through query and schema optimization
+      - Implemented QRIS payment integration with dynamic QR generation and reconciliation
+      - Led application development and maintenance teams
+      - Defined coding standards and architectural guidelines
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "PT VPOINT MEDIA SOLUSINDO"
+    role: "Software Implementator • Software Developer"
+    period: "Jan 2016 – Jul 2022"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
+      Implemented retail and distributor software for customers, conducted user
+      training, handled remote and on-site support, prepared hardware and system
+      configurations, and developed custom application features using VB.NET, C#,
+      and SQL Server.
     highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
+      - Customer implementation and training
+      - Remote and on-site technical support
+      - Hardware setup and system documentation
+      - Custom retail and distributor software development
 
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
-    description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
-
-# ── Projects ───────────────────────────────────────────────────────────
-# Set featured: true to show in the Featured section (max 3 recommended)
+# ── Projects ─────────────────────────────────────────────
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "Smart Jimpitan"
+    description: "Community cash and resident management platform built with Blazor, CQRS, and .NET 9 to digitize neighborhood collection, expense tracking, and resident data management."
+    tags: [Blazor, CQRS, .NET 9, SQL Server]
+    liveUrl: ""
+    repoUrl: ""
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
+  - name: "PIM PAYROLL"
+    description: "Payroll integration platform that imports attendance data from factory fingerprint machines, head office devices, Talenta, and facial recognition systems using Blazor, CQRS, and .NET 10."
+    tags: [Blazor, CQRS, .NET 10, Payroll]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+    repoUrl: ""
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
+  - name: "Retail QRIS POS Integration"
+    description: "Integrated InterActive QRIS into POS applications with dynamic QR code generation, payment status processing, and transaction reconciliation."
+    tags: [QRIS, POS, VB.NET, SQL Server]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
+    repoUrl: ""
+    featured: true
 
-# ── Education ──────────────────────────────────────────────────────────
+# ── Education ────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "Politeknik Surabaya"
+    degree: "D3 Manajemen Informatika"
+    period: "2013 – 2016"
 
-# ── Certifications ─────────────────────────────────────────────────────
+  - institution: "SMA Muhammadiyah 1 Taman"
+    degree: "High School"
+    period: "2010 – 2013"
+
+# ── Certifications ───────────────────────────────────────
 certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
+  - title: "DevExpress Reporting & XtraReport"
+    issuer: "DevExpress"
+    date: "Practical Experience"
     credentialUrl: ""
     badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
+    tags: [Reporting, DevExpress]
 
+  - title: "SQL Server Query Optimization"
+    issuer: "Practical Experience"
+    date: "Advanced"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: [SQL Server, Performance]
 
-# ── Publications ───────────────────────────────────────────────────────
-# Optional — ideal for researchers, academics, and technical writers.
-# type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
+  - title: "QRIS Payment Integration"
+    issuer: "InterActive QRIS"
+    date: "Implementation"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: [QRIS, Payment Gateway]
 
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
-
-# ── Testimonials ───────────────────────────────────────────────────────
+# ── Testimonials ─────────────────────────────────────────
 testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
-
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
+  - name: "Stakeholder Feedback"
+    title: "Business User"
+    company: "Retail ERP Project"
     relationship: "Client"
     quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
+      Dani was able to translate complex business requirements into practical
+      technical solutions and ensured the project was delivered according to the
+      agreed timeline.
     photoUrl: ""
 
-# ── Analytics (optional, always free) ──────────────────────────────────────
-# Two ways to track who visits your portfolio — both free, no credit card:
-#
-# 1. GitHub built-in traffic (zero setup — already there!)
-#    Go to your repository → Insights → Traffic.
-#    Shows unique visitors, page views, and top referrers for the last 14 days.
-#
-# 2. GoatCounter (more detail, privacy-friendly, free forever for personal use)
-#    Sign up at https://www.goatcounter.com — you'll get a short code, e.g. "janedoe"
-#    Uncomment the two lines below and replace "yourcode" with your GoatCounter code:
-#
-# analytics:
-#   goatcounterCode: "yourcode"
-
-# ── Blog ─────────────────────────────────────────────────────────────────────
-# Drop any .md file into the blog/ folder — it becomes a post automatically.
-# Each post starts with a small block called "frontmatter" (between --- lines):
-#
-#   ---
-#   title: "My Post Title"
-#   date: "2025-01-15"
-#   tags: [life, tech]
-#   excerpt: "One sentence that appears on the listing page."
-#   ---
-#
-# Then write your post in plain Markdown below the closing ---.
-# See the sample posts in blog/ to get started.
+# ── Blog ─────────────────────────────────────────────────
 blog:
   enabled: true
   title: "Blog"
-  description: "Thoughts, stories and ideas — everything in one place."
+  description: "Notes about .NET, SQL Server, ERP systems, and software architecture."
