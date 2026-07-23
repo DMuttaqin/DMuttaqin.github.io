@@ -1,177 +1,150 @@
-siteMode: "portfolio"
-siteUrl: "https://dmuttaqin.github.io"
-showPoweredBy: false
-
-# ── Identity ─────────────────────────────────────────────
-name: "Dani Muttaqin"
-title: "Software Developer • Lead Developer • Project Manager"
-tagline: "Building retail, manufacturing, and ERP solutions with .NET and SQL Server."
-email: "Daniine.100@gmail.com"
-phone: "+62 821-2345-4640"
-location: "Sidoarjo, Jawa Timur, Indonesia"
-avatarUrl: ""
-
-openToWork: true
-
-# ── Theme ────────────────────────────────────────────────
-defaultTheme: "system"
-colorPreset: "ocean"
-
-resumeTheme:
-  twoColumn: "ocean"
-  classic: "slate"
-
-# ── Social ───────────────────────────────────────────────
-social:
-  github: "https://github.com/DMuttaqin"
-  linkedin: ""
-  website: ""
-
-# ── About ────────────────────────────────────────────────
-about: |
-  Software developer with experience as Lead Developer, Software Implementator,
-  and Project Manager. Experienced in building retail, distributor, and
-  manufacturing systems using VB.NET, C#, ASP.NET, Blazor, and SQL Server.
-  Skilled in system architecture, database optimization, REST API integration,
-  payment gateway integration (QRIS), and leading development teams to deliver
-  business-critical applications on time and with high quality.
-
-# ── Stats ────────────────────────────────────────────────
-stats:
-  - { label: "Years Experience", value: 10, suffix: "+" }
-  - { label: "ERP / POS Projects", value: 30, suffix: "+" }
-  - { label: "Database Optimization", value: 80, suffix: "%" }
-  - { label: "Teams Led", value: 5, suffix: "+" }
-
-# ── Languages ────────────────────────────────────────────
-languages:
-  - { name: "Bahasa Indonesia", level: "Native" }
-  - { name: "English", level: "Conversational" }
-
-# ── Skills ───────────────────────────────────────────────
-skills:
-  - category: "Programming"
-    items: [VB.NET, C#, VB6, ASP.NET, REST API, .NET Core, .NET 8, .NET 9, .NET 10]
-
-  - category: "Frontend"
-    items: [Blazor, MVC, MVVM]
-
-  - category: "Architecture"
-    items: [CQRS, System Design, Software Architecture]
-
-  - category: "Database"
-    items: [SQL Server, MySQL, SQLite, Query Optimization, Performance Tuning]
-
-  - category: "Reporting & Tools"
-    items: [DevExpress XtraReport, DevExpress GridView, Crystal Reports, BarTender]
-
-  - category: "Integration"
-    items: [REST API Integration, QRIS Integration, InterActive QRIS, Payment Gateway Integration]
-
-  - category: "Project Management"
-    items: [Requirement Gathering, BRD, MoM, Project Tracker, Azure DevOps, Trello]
-
-# ── Experience ───────────────────────────────────────────
-experience:
-  - company: "PT GENESYS INTEGRATED INDONESIA"
-    role: "Software Developer • Lead Desktop Developer • Project Manager"
-    period: "Aug 2022 – Present"
-    description: |
-      Develop and customize retail and manufacturing applications using VB.NET,
-      C#, and SQL Server. Lead desktop development teams, design system
-      architecture, conduct code reviews, and manage project delivery. Gather
-      business requirements, create feature specifications, and communicate
-      progress reports to stakeholders.
-    highlights:
-      - Improved database performance by 20–80% through query and schema optimization
-      - Implemented QRIS payment integration with dynamic QR generation and reconciliation
-      - Led application development and maintenance teams
-      - Defined coding standards and architectural guidelines
-
-  - company: "PT VPOINT MEDIA SOLUSINDO"
-    role: "Software Implementator • Software Developer"
-    period: "Jan 2016 – Jul 2022"
-    description: |
-      Implemented retail and distributor software for customers, conducted user
-      training, handled remote and on-site support, prepared hardware and system
-      configurations, and developed custom application features using VB.NET, C#,
-      and SQL Server.
-    highlights:
-      - Customer implementation and training
-      - Remote and on-site technical support
-      - Hardware setup and system documentation
-      - Custom retail and distributor software development
-
-# ── Projects ─────────────────────────────────────────────
-projects:
-  - name: "Smart Jimpitan"
-    description: "Community cash and resident management platform built with Blazor, CQRS, and .NET 9 to digitize neighborhood collection, expense tracking, and resident data management."
-    tags: [Blazor, CQRS, .NET 9, SQL Server]
-    liveUrl: ""
-    repoUrl: ""
-    featured: true
-
-  - name: "PIM PAYROLL"
-    description: "Payroll integration platform that imports attendance data from factory fingerprint machines, head office devices, Talenta, and facial recognition systems using Blazor, CQRS, and .NET 10."
-    tags: [Blazor, CQRS, .NET 10, Payroll]
-    liveUrl: ""
-    repoUrl: ""
-    featured: true
-
-  - name: "Retail QRIS POS Integration"
-    description: "Integrated InterActive QRIS into POS applications with dynamic QR code generation, payment status processing, and transaction reconciliation."
-    tags: [QRIS, POS, VB.NET, SQL Server]
-    liveUrl: ""
-    repoUrl: ""
-    featured: true
-
-# ── Education ────────────────────────────────────────────
-education:
-  - institution: "Politeknik Surabaya"
-    degree: "D3 Manajemen Informatika"
-    period: "2013 – 2016"
-
-  - institution: "SMA Muhammadiyah 1 Taman"
-    degree: "High School"
-    period: "2010 – 2013"
-
-# ── Certifications ───────────────────────────────────────
-certifications:
-  - title: "DevExpress Reporting & XtraReport"
-    issuer: "DevExpress"
-    date: "Practical Experience"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [Reporting, DevExpress]
-
-  - title: "SQL Server Query Optimization"
-    issuer: "Practical Experience"
-    date: "Advanced"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [SQL Server, Performance]
-
-  - title: "QRIS Payment Integration"
-    issuer: "InterActive QRIS"
-    date: "Implementation"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [QRIS, Payment Gateway]
-
-# ── Testimonials ─────────────────────────────────────────
-testimonials:
-  - name: "Stakeholder Feedback"
-    title: "Business User"
-    company: "Retail ERP Project"
-    relationship: "Client"
-    quote: |
-      Dani was able to translate complex business requirements into practical
-      technical solutions and ensured the project was delivered according to the
-      agreed timeline.
-    photoUrl: ""
-
-# ── Blog ─────────────────────────────────────────────────
-blog:
-  enabled: true
-  title: "Blog"
-  description: "Notes about .NET, SQL Server, ERP systems, and software architecture."
+siteMode: "portfolio"  
+siteUrl: "https://dmuttaqin.github.io"  
+showPoweredBy: false  
+# ── Identity ─────────────────────────────────────────────  
+name: "Dani Muttaqin"  
+title: "Software Developer • Lead Developer • Project Manager"  
+tagline: "Building retail, manufacturing, and ERP solutions with .NET and SQL Server."  
+email: "Daniine.100@gmail.com"  
+phone: "+62 821-2345-4640"  
+location: "Sidoarjo, Jawa Timur, Indonesia"  
+avatarUrl: ""  
+openToWork: true  
+# ── Theme ────────────────────────────────────────────────  
+defaultTheme: "system"  
+colorPreset: "ocean"  
+resumeTheme:  
+  twoColumn: "ocean"  
+  classic: "slate"  
+# ── Social ───────────────────────────────────────────────  
+social:  
+  github: "https://github.com/DMuttaqin"  
+  linkedin: ""  
+  website: ""  
+# ── About ────────────────────────────────────────────────  
+about: |  
+  Software developer with experience as Lead Developer, Software Implementator,  
+  and Project Manager. Experienced in building retail, distributor, and  
+  manufacturing systems using VB.NET, C#, ASP.NET, Blazor, and SQL Server.  
+  Skilled in system architecture, database optimization, REST API integration,  
+  payment gateway integration (QRIS), and leading development teams to deliver  
+  business-critical applications on time and with high quality.  
+# ── Stats ────────────────────────────────────────────────  
+stats:  
+  - { label: "Years Experience", value: 10, suffix: "+" }  
+  - { label: "ERP / POS Projects", value: 30, suffix: "+" }  
+  - { label: "Database Optimization", value: 80, suffix: "%" }  
+  - { label: "Teams Led", value: 5, suffix: "+" }  
+# ── Languages ────────────────────────────────────────────  
+languages:  
+  - { name: "Bahasa Indonesia", level: "Native" }  
+  - { name: "English", level: "Conversational" }  
+# ── Skills ───────────────────────────────────────────────  
+skills:  
+  - category: "Programming"  
+    items: [VB.NET, C#, VB6, ASP.NET, REST API, .NET Core, .NET 8, .NET 9, .NET 10]  
+  - category: "Frontend"  
+    items: [Blazor, MVC, MVVM]  
+  - category: "Architecture"  
+    items: [CQRS, System Design, Software Architecture]  
+  - category: "Database"  
+    items: [SQL Server, MySQL, SQLite, Query Optimization, Performance Tuning]  
+  - category: "Reporting & Tools"  
+    items: [DevExpress XtraReport, DevExpress GridView, Crystal Reports, BarTender]  
+  - category: "Integration"  
+    items: [REST API Integration, QRIS Integration, InterActive QRIS, Payment Gateway Integration]  
+  - category: "Project Management"  
+    items: [Requirement Gathering, BRD, MoM, Project Tracker, Azure DevOps, Trello]  
+# ── Experience ───────────────────────────────────────────  
+experience:  
+  - company: "PT GENESYS INTEGRATED INDONESIA"  
+    role: "Software Developer • Lead Desktop Developer • Project Manager"  
+    period: "Aug 2022 – Present"  
+    description: |  
+      Develop and customize retail and manufacturing applications using VB.NET,  
+      C#, and SQL Server. Lead desktop development teams, design system  
+      architecture, conduct code reviews, and manage project delivery. Gather  
+      business requirements, create feature specifications, and communicate  
+      progress reports to stakeholders.  
+    highlights:  
+      - Improved database performance by 20–80% through query and schema optimization  
+      - Implemented QRIS payment integration with dynamic QR generation and reconciliation  
+      - Led application development and maintenance teams  
+      - Defined coding standards and architectural guidelines  
+  - company: "PT VPOINT MEDIA SOLUSINDO"  
+    role: "Software Implementator • Software Developer"  
+    period: "Jan 2016 – Jul 2022"  
+    description: |  
+      Implemented retail and distributor software for customers, conducted user  
+      training, handled remote and on-site support, prepared hardware and system  
+      configurations, and developed custom application features using VB.NET, C#,  
+      and SQL Server.  
+    highlights:  
+      - Customer implementation and training  
+      - Remote and on-site technical support  
+      - Hardware setup and system documentation  
+      - Custom retail and distributor software development  
+# ── Projects ─────────────────────────────────────────────  
+projects:  
+  - name: "Smart Jimpitan"  
+    description: "Community cash and resident management platform built with Blazor, CQRS, and .NET 9 to digitize neighborhood collection, expense tracking, and resident data management."  
+    tags: [Blazor, CQRS, .NET 9, SQL Server]  
+    liveUrl: ""  
+    repoUrl: ""  
+    featured: true  
+  - name: "PIM PAYROLL"  
+    description: "Payroll integration platform that imports attendance data from factory fingerprint machines, head office devices, Talenta, and facial recognition systems using Blazor, CQRS, and .NET 10."  
+    tags: [Blazor, CQRS, .NET 10, Payroll]  
+    liveUrl: ""  
+    repoUrl: ""  
+    featured: true  
+  - name: "Retail QRIS POS Integration"  
+    description: "Integrated InterActive QRIS into POS applications with dynamic QR code generation, payment status processing, and transaction reconciliation."  
+    tags: [QRIS, POS, VB.NET, SQL Server]  
+    liveUrl: ""  
+    repoUrl: ""  
+    featured: true  
+# ── Education ────────────────────────────────────────────  
+education:  
+  - institution: "Politeknik Surabaya"  
+    degree: "D3 Manajemen Informatika"  
+    period: "2013 – 2016"  
+  - institution: "SMA Muhammadiyah 1 Taman"  
+    degree: "High School"  
+    period: "2010 – 2013"  
+# ── Certifications ───────────────────────────────────────  
+certifications:  
+  - title: "DevExpress Reporting & XtraReport"  
+    issuer: "DevExpress"  
+    date: "Practical Experience"  
+    credentialUrl: ""  
+    badgeUrl: ""  
+    tags: [Reporting, DevExpress]  
+  - title: "SQL Server Query Optimization"  
+    issuer: "Practical Experience"  
+    date: "Advanced"  
+    credentialUrl: ""  
+    badgeUrl: ""  
+    tags: [SQL Server, Performance]  
+  - title: "QRIS Payment Integration"  
+    issuer: "InterActive QRIS"  
+    date: "Implementation"  
+    credentialUrl: ""  
+    badgeUrl: ""  
+    tags: [QRIS, Payment Gateway]  
+# ── Testimonials ─────────────────────────────────────────  
+testimonials:  
+  - name: "Stakeholder Feedback"  
+    title: "Business User"  
+    company: "Retail ERP Project"  
+    relationship: "Client"  
+    quote: |  
+      Dani was able to translate complex business requirements into practical  
+      technical solutions and ensured the project was delivered according to the  
+      agreed timeline.  
+    photoUrl: ""  
+# ── Blog ─────────────────────────────────────────────────  
+blog:  
+  enabled: true  
+  title: "Blog"  
+  description: "Notes about .NET, SQL Server, ERP systems, and software architecture."  
