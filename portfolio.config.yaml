@@ -15,10 +15,10 @@ tagline: "IT Professional with 10+ Years Experience in Enterprise Retail, POS, M
 email: "Daniine.100@gmail.com"
 phone: "0821-2345-4640"
 location: "Sidoarjo, Jawa Timur, Indonesia"
-avatarUrl: "https://github.com/DMuttaqin.png"
+avatarUrl: "/avatar.jpg"
 
 # ── Resume download ────────────────────────────────────────────────────
-# resumeUrl: ""  # Leave blank — GitVitae generates the resume
+resumeUrl: "/Dani_Muttaqin_Resume.pdf"
 resumeFileName: "Dani_Muttaqin_Resume.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────

@@ -10,6 +10,7 @@ import {
   Globe,
   ExternalLink,
   Share2,
+  Download,
 } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { config } from '@/portfolio.config';
@@ -486,6 +487,16 @@ export function ResumePage({ theme, onToggleTheme }: ResumePageProps) {
 
         {/* Right controls */}
         <div className="flex items-center gap-2">
+          {config.resumeUrl && (
+            <a
+              href={config.resumeUrl}
+              download={config.resumeFileName || 'Dani_Muttaqin_Resume.pdf'}
+              className="border-border text-muted-foreground hover:text-foreground hover:border-primary/40 flex items-center gap-1.5 rounded-full border px-3.5 py-2 text-xs font-medium transition-all"
+            >
+              <Download size={13} />
+              <span className="hidden sm:inline">Download PDF</span>
+            </a>
+          )}
           <button
             onClick={() => setShareOpen(true)}
             aria-label="Share resume"
