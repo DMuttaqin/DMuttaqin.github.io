@@ -4,22 +4,14 @@
 # ║  Run  pnpm check-config  to catch mistakes before deploying.         ║
 # ╚══════════════════════════════════════════════════════════════════════╝
 
-# ╔══════════════════════════════════════════════════════════════════════╗
-# ║  ** FIRST THING TO CHANGE **                                         ║
-# ║                                                                      ║
-# ║  siteMode: "landing"  → shows the GitVitae intro page (default)      ║
-# ║  siteMode: "portfolio" → shows YOUR portfolio                        ║
-# ║                                                                      ║
-# ║  Change it to "portfolio" once you have filled in your details.      ║
-# ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "portfolio"   # ← CHANGED to "portfolio"
-siteUrl: "https://dmuttaqin.github.io"  # ← Your GitHub Pages URL
-showPoweredBy: true  # Set to true to show a small "Made with GitVitae" badge
+siteMode: "portfolio"
+siteUrl: "https://dmuttaqin.github.io"
+showPoweredBy: true
 
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Dani Muttaqin"
-title: "Software Developer & Lead Developer"
-tagline: "Building Enterprise Solutions & Leading Development Teams"
+title: "Developer | Software Implementator | Lead Developer | Project Manager | System Analyst"
+tagline: "IT Professional with 10+ Years Experience in Enterprise Retail, POS, Manufacturing & ERP Solutions"
 email: "Daniine.100@gmail.com"
 phone: "0821-2345-4640"
 location: "Sidoarjo, Jawa Timur, Indonesia"
@@ -45,7 +37,7 @@ contactFormEndpoint: ""
 # ── Section visibility ─────────────────────────────────────────────────
 sections:
   - { id: about,          show: true  }
-  - { id: stats,          show: false }
+  - { id: stats,          show: true  }
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
@@ -59,108 +51,117 @@ sections:
 # ── Social links ───────────────────────────────────────────────────────
 social:
   github:   "https://github.com/DMuttaqin"
-  linkedin: "https://www.linkedin.com/in/dani-muttaqin"  # Update with actual LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/dani-muttaqin"
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  Experienced Software Developer, Lead Developer, and Product Manager with
-  a strong background in retail and manufacturing software development.
-  Proven track record in system architecture design, team leadership, and
-  project management across multiple organizations.
+  IT Professional dengan pengalaman 10+ tahun dalam software development, system implementation, dan business requirement analysis, khususnya pada sistem Retail, POS, Distributor, Manufacturing, dan ERP.
 
-  Skilled in bridging business and technical requirements to deliver effective,
-  efficient, and on-time solutions. Experienced in full development lifecycle
-  from requirements gathering to deployment and maintenance.
+  Berpengalaman mendalam menggunakan C#, VB.NET, .NET Core (8, 9, 10), ASP.NET REST API, dan SQL Server, serta menangani system integration, database optimization, deployment, dan troubleshooting.
+
+  Terbiasa berinteraksi langsung dengan user dan stakeholder untuk menganalisis kebutuhan bisnis, merancang arsitektur sistem (BRD/FSD/UML/ERD), memimpin tim developer (Lead Developer / PM), hingga mengawal seluruh proses dari requirement gathering, development, testing/UAT, hingga implementasi dan post go-live support.
 
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
-  - { label: "Years Experience", value: 10,   suffix: "+" }
-  - { label: "Projects Delivered", value: 20, suffix: "+" }
-  - { label: "Companies Served", value: 4,    suffix: "" }
-  - { label: "Daily Users Supported", value: 100, suffix: "+" }
+  - { label: "Tahun Pengalaman", value: 10, suffix: "+" }
+  - { label: "Project & Implementasi", value: 30, suffix: "+" }
+  - { label: "Optimasi Query Database", value: 80, suffix: "%" }
+  - { label: "Domain Bisnis & Modul ERP", value: 8, suffix: "+" }
 
 # ── Languages ──────────────────────────────────────────────────────────
 languages:
-  - { name: "Indonesian", level: "Native"   }
-  - { name: "English",    level: "Professional"   }
+  - { name: "Bahasa Indonesia", level: "Native" }
+  - { name: "English",          level: "Professional Working" }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Programming & Development"
-    items: ["C#", "VB.NET", "VB6", ".NET Core", "ASP.NET (REST API)", ".NET Core 8/9/10", "Blazor MVC", "MVVM", "CQRS"]
-  - category: "Database"
-    items: ["SQL Server", "Advanced Query", "Optimization", "MySQL", "SQLite"]
-  - category: "Reporting"
-    items: ["DevExpress", "XtraReport", "GridView", "Crystal Report", "Bartender"]
-  - category: "Architecture & Integration"
-    items: ["System Design", "Architecture", "Database Optimization", "Performance Tuning", "API Integration", "REST API", "Payment Gateway", "QRIS Integration"]
-  - category: "Project Management"
-    items: ["Requirement Gathering", "System Design", "Documentation", "MoM", "BRD", "Project Tracker", "Azure", "Trello", "Code Review"]
+  - category: "Programming & Frameworks"
+    items: ["C#", "VB.NET", ".NET Core (8, 9, 10)", "ASP.NET Core (REST API)", "Blazor", "VB6", "MVC", "MVVM", "CQRS"]
+
+  - category: "Database & Performance Tuning"
+    items: ["SQL Server (Advanced Query & Optimization)", "Database Tuning", "MySQL", "SQLite", "Data Migration & ETL"]
+
+  - category: "System Architecture & Integration"
+    items: ["System Design & Architecture", "RESTful API Integration", "Payment Gateway (Interactive QRIS)", "Biometric Attendance & Talenta Integration", "Hardware Integration (POS, Barcode, Fingerprint)"]
+
+  - category: "Reporting & Tools"
+    items: ["DevExpress (XtraReport, GridView)", "Crystal Reports", "Bartender (Barcode & Label)", "Git / GitHub"]
+
+  - category: "System Analysis & Project Management"
+    items: ["Requirement Gathering & Business Analysis", "BRD & FSD Documentation", "ERD & Database Design", "Flowchart & UML Modeling", "User Stories & Acceptance Criteria", "UAT & Go-Live Support", "Sprint Monitoring & MoM"]
+
+  - category: "Business & Domain Understanding"
+    items: ["Retail & Point of Sales (POS)", "Distribution & Supply Chain", "Inventory & Warehouse Management", "Sales & Purchasing", "Accounting & Financial Process", "COGS / HPP & Stock Valuation", "Manufacturing Business Process", "Payroll & Attendance Integration"]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
   - company: "PT Genesys Integrated Indonesia"
-    role: "Software Developer / Lead Desktop Developer / Project Manager"
-    period: "Aug 2022 – Current"
+    role: "Lead Desktop Developer / Software Developer / Project Manager"
+    period: "Agustus 2022 – Sekarang"
     location: "Surabaya, Indonesia"
     description: |
-      Developed and customized retail and manufacturing software solutions. Led development teams, designed system architecture, and managed project delivery.
+      Memimpin pengembangan aplikasi desktop, perancangan arsitektur sistem, integrasi pembayaran digital, serta manajemen proyek untuk solusi ERP, Retail, dan Manufaktur.
     highlights:
-      - "Developed and customized Retail & Manufacturing software using VB.NET, C#, and SQL Server to meet customer requirements"
-      - "Optimized database queries and structure, improving process performance by 20% to 80%"
-      - "Developed reports using DevExpress XtraReport, simplifying report creation without complex configuration"
-      - "Implemented QRIS payment gateway integration on POS applications, including dynamic QR Code generation, payment status processing, and transaction reconciliation"
-      - "Led desktop development team in application development and maintenance"
-      - "Designed system architecture and established development standards"
-      - "Conducted code reviews ensuring quality and system performance"
-      - "Coordinated with cross-functional teams to ensure delivery within timeline"
-      - "Performed effort estimation and development planning"
-      - "Managed project monitoring and risk mitigation"
-      - "Compiled and delivered project reports to stakeholders"
+      - "Mengembangkan dan meng-customize software Retail & Manufaktur berbasis C#, VB.NET, dan SQL Server sesuai kebutuhan spesifik customer."
+      - "Membuat dan mengoptimalkan query & struktur database sehingga mempercepat waktu pemrosesan transaksi sebesar 20% hingga 80%."
+      - "Mengimplementasikan integrasi pembayaran QRIS (Interactive QRIS) pada aplikasi POS, termasuk pembuatan dynamic QR Code, pemrosesan status pembayaran real-time, dan rekonsiliasi transaksi."
+      - "Mengembangkan dan melakukan kustomisasi modul Sales, Purchase, Inventory, Accounting, POS, Reporting (DevExpress XtraReport), dan integrasi antar-sistem."
+      - "Mengembangkan dan mengintegrasikan REST API untuk pertukaran data antara aplikasi internal dan sistem third-party."
+      - "Memimpin tim developer desktop: mendesain arsitektur sistem, menentukan standar pengembangan, melakukan code review, dan merencanakan timeline/effort."
+      - "Melakukan migrasi data dari database legacy dan Microsoft Excel ke database aplikasi baru dengan mapping, validasi, dan penyesuaian struktur data yang presisi."
+      - "Menjalankan peran Project Manager: requirement gathering bersama stakeholder, menyusun BRD/FSD/MoM/project tracker, memitigasi risiko, dan mendampingi UAT hingga go-live."
 
   - company: "PT VPoint Media Solusindo"
     role: "Software Implementator & Software Developer"
-    period: "Jan 2016 – Jul 2022"
+    period: "Januari 2016 – Juli 2022"
     location: "Surabaya, Indonesia"
     description: |
-      Implemented and customized retail and distributor software solutions. Provided support and training to customers.
+      Menangani implementasi sistem end-to-end, kustomisasi aplikasi, migrasi data, serta technical support untuk software Retail dan Distributor di berbagai klien.
     highlights:
-      - "Implemented and trained customers on Retail & Distributor software solutions"
-      - "Provided remote and on-site technical support for application issues"
-      - "Documented and configured hardware before software deployment"
-      - "Developed and customized Retail & Distributor software using VB.NET, C#, and SQL Server"
-      - "Handled maintenance and bug fixing for applications"
+      - "Mengembangkan dan mengkustomisasi software Retail & Distributor menggunakan VB.NET, C#, dan SQL Server sesuai kebutuhan operasional customer."
+      - "Melakukan implementasi software Retail dan Distributor pada customer mulai dari initial setup, konfigurasi database, setting hardware POS, hingga sistem siap operasional."
+      - "Membuat dan memodifikasi query, stored procedures, report, dan struktur database sesuai kebutuhan spesifik aplikasi klien."
+      - "Melakukan migrasi dan import data master serta riwayat transaksi dari sistem lama/Excel ke database aplikasi baru."
+      - "Memberikan pelatihan (training) dan knowledge transfer secara menyeluruh kepada user terkait operasional sistem."
+      - "Memberikan layanan troubleshooting dan post-implementation support (remote maupun kunjungan on-site), serta mendampingi customer selama proses testing, UAT, hingga post go-live."
 
 # ── Projects ───────────────────────────────────────────────────────────
 projects:
-  - name: "PIM Payroll"
-    description: "Payroll system integrating fingerprint data from multiple sources including factory, head office, and Talenta systems. Built using Blazor with CQRS pattern and .NET Core 10."
-    tags: ["Blazor", "CQRS", ".NET Core 10", "Fingerprint", "Payroll"]
-    liveUrl: ""
-    repoUrl: "https://github.com/DMuttaqin/pim-payroll"
-    featured: true
-
   - name: "Smart Jimpitan"
-    description: "Digitalization of community savings management system. Features include digital recording of contributions, cash flow management, and resident data management. Built with Blazor CQRS and .NET Core 9."
-    tags: ["Blazor", "CQRS", ".NET Core 9", "Community", "Digitalization"]
+    description: "Sistem digitalisasi administrasi kas dan jimpitan warga. Fitur mencakup pencatatan iuran digital, transparansi arus kas masuk/keluar, dan manajemen data warga. Dibangun dengan arsitektur modern Blazor dan CQRS pattern."
+    tags: ["Blazor", "CQRS", ".NET Core 9", "Clean Architecture", "SQL Server"]
     liveUrl: ""
     repoUrl: "https://github.com/DMuttaqin/smart-jimpitan"
     featured: true
 
-  - name: "POS with QRIS Integration"
-    description: "Point of Sale application with Interactive QRIS payment gateway integration, including dynamic QR code generation, payment status processing, and transaction reconciliation."
-    tags: ["VB.NET", "C#", "SQL Server", "QRIS", "Payment Gateway", "POS"]
+  - name: "PIM Payroll & Attendance Integration"
+    description: "Sistem payroll enterprise terintegrasi dengan data presensi otomatis dari mesin Fingerprint Kantor Pusat & Pabrik, Face Recognition, serta integrasi API platform HR Talenta."
+    tags: [".NET Core 10", "Blazor", "CQRS", "Talenta API", "Biometric Integration", "Payroll"]
+    liveUrl: ""
+    repoUrl: "https://github.com/DMuttaqin/pim-payroll"
+    featured: true
+
+  - name: "POS with Interactive QRIS Payment"
+    description: "Modul integrasi payment gateway QRIS interaktif untuk aplikasi Point of Sales (POS), mencakup dynamic QR Code generation, pemrosesan status pembayaran real-time, dan rekonsiliasi transaksi harian."
+    tags: ["C#", "VB.NET", "SQL Server", "QRIS", "Payment Gateway", "REST API", "POS"]
     liveUrl: ""
     repoUrl: "https://github.com/DMuttaqin/qris-pos"
-    featured: false
+    featured: true
 
-  - name: "Retail & Manufacturing Software Suite"
-    description: "Comprehensive retail and manufacturing software suite with custom reporting and optimized database performance."
-    tags: ["VB.NET", "C#", "SQL Server", "DevExpress", "Retail", "Manufacturing"]
+  - name: "Enterprise Retail & Manufacturing ERP Suite"
+    description: "Suite aplikasi ERP komprehensif untuk industri retail dan manufaktur dengan modul Sales, Purchase, Inventory, Accounting, perhitungan HPP/COGS, serta reporting interaktif menggunakan DevExpress XtraReport."
+    tags: ["C#", "VB.NET", "SQL Server", "DevExpress", "ERP", "Manufacturing", "Inventory"]
     liveUrl: ""
     repoUrl: "https://github.com/DMuttaqin/retail-manufacturing"
+    featured: true
+
+  - name: "Multi-Branch Distribution & Inventory Manager"
+    description: "Sistem distribusi dan manajemen multi-gudang dengan tracking stok real-time, kontrol batch/expired date, dan integrasi cetak barcode label otomatis via Bartender."
+    tags: ["VB.NET", "SQL Server", "Bartender", "Distribution", "Supply Chain", "Inventory"]
+    liveUrl: ""
+    repoUrl: "https://github.com/DMuttaqin/distribution-inventory"
     featured: false
 
 # ── Education ──────────────────────────────────────────────────────────
@@ -172,7 +173,7 @@ education:
   - institution: "SMA Muhammadiyah 1 Taman"
     degree: "SMA"
     period: "2010 – 2013"
-    location: "Indonesia"
+    location: "Sidoarjo, Indonesia"
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications: []
