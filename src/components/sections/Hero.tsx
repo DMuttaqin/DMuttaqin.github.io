@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Download, MapPin, Phone, ArrowDown } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaXTwitter, FaWhatsapp } from 'react-icons/fa6';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { config } from '@/portfolio.config';
 
@@ -201,6 +201,18 @@ export function Hero() {
               data-testid="link-linkedin"
             >
               <FaLinkedin size={18} />
+            </a>
+          )}
+          {config.social.whatsapp && (
+            <a
+              href={config.social.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-border text-muted-foreground hover:text-foreground hover:border-primary/40 hover:bg-primary/5 rounded-xl border p-2.5 transition-all"
+              aria-label="WhatsApp"
+              data-testid="link-whatsapp"
+            >
+              <FaWhatsapp size={18} />
             </a>
           )}
           {config.social.twitter && (

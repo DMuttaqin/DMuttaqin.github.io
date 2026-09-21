@@ -10,7 +10,7 @@ import {
   AlertCircle,
   Sparkles,
 } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaXTwitter, FaWhatsapp } from 'react-icons/fa6';
 import { config } from '@/portfolio.config';
 import { ShareModal } from '@/components/ShareModal';
 import { ChangelogModal } from '@/components/ChangelogModal';
@@ -185,26 +185,48 @@ export function Contact() {
               </div>
             )}
 
-            <button
-              type="submit"
-              disabled={status === 'sending'}
-              className="bg-primary text-primary-foreground flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm font-medium transition-opacity hover:opacity-90 disabled:opacity-50"
-            >
-              <Send size={15} />
-              {status === 'sending'
-                ? 'Sending…'
-                : hasEndpoint
-                  ? 'Send message'
-                  : 'Open in email app'}
-            </button>
+            <div className="flex flex-col gap-2.5 sm:flex-row">
+              <button
+                type="submit"
+                disabled={status === 'sending'}
+                className="bg-primary text-primary-foreground flex flex-1 items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm font-medium transition-opacity hover:opacity-90 disabled:opacity-50"
+              >
+                <Send size={15} />
+                {status === 'sending'
+                  ? 'Sending…'
+                  : hasEndpoint
+                    ? 'Send message'
+                    : 'Send via Email'}
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  const text = message
+                    ? encodeURIComponent(
+                      `Halo Dani,\nSaya ${name || 'Pengunjung Website'} ${email ? `(${email})` : ''}\n\n${message}`
+                    )
+                    : encodeURIComponent(
+                      'Halo Dani, saya melihat portofolio Anda dan tertarik untuk terhubung.'
+                    );
+                  window.open(
+                    `https://wa.me/6282123454640?text=${text}`,
+                    '_blank'
+                  );
+                }}
+                className="border-emerald-500/30 bg-emerald-600/10 text-emerald-600 hover:bg-emerald-600/20 dark:text-emerald-400 dark:hover:bg-emerald-500/20 flex flex-1 items-center justify-center gap-2 rounded-xl border px-6 py-3.5 text-sm font-medium transition-all"
+              >
+                <FaWhatsapp size={16} />
+                Chat via WhatsApp
+              </button>
+            </div>
             {!hasEndpoint && (
               <p className="text-muted-foreground text-center text-xs">
-                Opens your email client with the message pre-filled.{' '}
+                Pesan akan diarahkan langsung ke email atau WhatsApp Dani Muttaqin.{' '}
                 <a
                   href={`mailto:${config.email}`}
                   className="text-primary underline-offset-2 hover:underline"
                 >
-                  Or email directly →
+                  Email langsung →
                 </a>
               </p>
             )}
@@ -217,7 +239,7 @@ export function Contact() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-60px' }}
-            className="flex flex-col items-center gap-3 sm:flex-row"
+            className="flex flex-wrap items-center justify-center gap-3"
           >
             <a
               href={`mailto:${config.email}`}
@@ -227,9 +249,21 @@ export function Contact() {
               <Mail size={15} />
               {config.email}
             </a>
+            {config.social.whatsapp && (
+              <a
+                href={config.social.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-emerald-500/30 bg-emerald-600/10 text-emerald-600 hover:bg-emerald-600/20 hover:border-emerald-500/50 dark:text-emerald-400 dark:hover:bg-emerald-500/20 flex items-center gap-2.5 rounded-2xl border px-6 py-3 text-sm font-medium tracking-wide transition-all"
+                data-testid="link-contact-whatsapp"
+              >
+                <FaWhatsapp size={16} />
+                WhatsApp ({config.phone || '+62 821-2345-4640'})
+              </a>
+            )}
             {config.phone && (
               <a
-                href={`tel:${config.phone.replace(/\s/g, '')}`}
+                href={`tel:${config.phone.replace(/[\s-]/g, '')}`}
                 className="border-border text-foreground hover:bg-secondary hover:border-primary/40 flex items-center gap-2.5 rounded-2xl border px-6 py-3 text-sm font-medium tracking-wide transition-all"
                 data-testid="link-contact-phone"
               >
@@ -270,6 +304,18 @@ export function Contact() {
                 data-testid="link-footer-linkedin"
               >
                 <FaLinkedin size={18} />
+              </a>
+            )}
+            {config.social.whatsapp && (
+              <a
+                href={config.social.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-border text-muted-foreground hover:text-foreground hover:border-primary/40 hover:bg-primary/5 rounded-xl border p-3 transition-all"
+                aria-label="WhatsApp"
+                data-testid="link-footer-whatsapp"
+              >
+                <FaWhatsapp size={18} />
               </a>
             )}
             {config.social.twitter && (

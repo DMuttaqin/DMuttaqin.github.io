@@ -1,193 +1,228 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Git Vitae",
-    "label": "Portfolio-Resume Engineer",
-    "image": "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12",
-    "email": "git-vitae@proton.me",
-    "phone": "",
-    "summary": "I'm a full-stack engineer with 5+ years of experience building products\nthat people love. I specialize in React, Node.js, and distributed systems.\nWhen I'm not coding, I'm hiking trails or experimenting with new coffee\nbrewing methods.\n",
+    "name": "Dani Muttaqin",
+    "label": "Developer | Software Implementator | Lead Developer | Project Manager | System Analyst",
+    "image": "/avatar.jpg",
+    "email": "Daniine.100@gmail.com",
+    "phone": "+62 821-2345-4640",
+    "summary": "IT Professional dengan pengalaman 10+ tahun dalam software development, system implementation, dan business requirement analysis, khususnya pada sistem Retail, POS, Distributor, Manufacturing, dan ERP.\n\nBerpengalaman mendalam menggunakan C#, VB.NET, .NET Core (8, 9, 10), ASP.NET REST API, dan SQL Server, serta menangani system integration, database optimization, deployment, dan troubleshooting.\n\nTerbiasa berinteraksi langsung dengan user dan stakeholder untuk menganalisis kebutuhan bisnis, merancang arsitektur sistem (BRD/FSD/UML/ERD), memimpin tim developer (Lead Developer / PM), hingga mengawal seluruh proses dari requirement gathering, development, testing/UAT, hingga implementasi dan post go-live support.\n",
     "location": {
-      "city": "San Francisco",
-      "region": "CA"
+      "city": "Sidoarjo",
+      "region": "Jawa Timur"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "url": "https://github.com/yourusername",
-        "username": "yourusername"
+        "url": "https://github.com/DMuttaqin",
+        "username": "DMuttaqin"
       },
       {
         "network": "LinkedIn",
-        "url": "https://linkedin.com/in/yourusername",
-        "username": "yourusername"
+        "url": "https://www.linkedin.com/in/dani-muttaqin",
+        "username": "dani-muttaqin"
       }
     ]
   },
   "work": [
     {
-      "name": "Acme Corp",
-      "position": "Senior Full-Stack Engineer",
-      "startDate": "2022",
-      "endDate": "",
-      "summary": "Led migration of monolithic Rails app to microservices.\nReduced p99 latency by 60%. Mentored a team of 4 engineers.\n",
+      "name": "PT Genesys Integrated Indonesia",
+      "position": "Lead Desktop Developer / Software Developer / Project Manager",
+      "startDate": "Agustus 2022",
+      "endDate": "Sekarang",
+      "summary": "Memimpin pengembangan aplikasi desktop, perancangan arsitektur sistem, integrasi pembayaran digital, serta manajemen proyek untuk solusi ERP, Retail, dan Manufaktur.\n",
       "highlights": [
-        "Microservices migration",
-        "60% latency reduction",
-        "Team leadership"
+        "Mengembangkan dan meng-customize software Retail & Manufaktur berbasis C#, VB.NET, dan SQL Server sesuai kebutuhan spesifik customer.",
+        "Membuat dan mengoptimalkan query & struktur database sehingga mempercepat waktu pemrosesan transaksi sebesar 20% hingga 80%.",
+        "Mengimplementasikan integrasi pembayaran QRIS (Interactive QRIS) pada aplikasi POS, termasuk pembuatan dynamic QR Code, pemrosesan status pembayaran real-time, dan rekonsiliasi transaksi.",
+        "Mengembangkan dan melakukan kustomisasi modul Sales, Purchase, Inventory, Accounting, POS, Reporting (DevExpress XtraReport), dan integrasi antar-sistem.",
+        "Mengembangkan dan mengintegrasikan REST API untuk pertukaran data antara aplikasi internal dan sistem third-party.",
+        "Memimpin tim developer desktop: mendesain arsitektur sistem, menentukan standar pengembangan, melakukan code review, dan merencanakan timeline/effort.",
+        "Melakukan migrasi data dari database legacy dan Microsoft Excel ke database aplikasi baru dengan mapping, validasi, dan penyesuaian struktur data yang presisi.",
+        "Menjalankan peran Project Manager: requirement gathering bersama stakeholder, menyusun BRD/FSD/MoM/project tracker, memitigasi risiko, dan mendampingi UAT hingga go-live."
       ]
     },
     {
-      "name": "Startup XYZ",
-      "position": "Software Engineer",
-      "startDate": "2020",
-      "endDate": "2022",
-      "summary": "Built real-time collaboration features for a SaaS platform serving\n50k users. Owned the entire frontend from scratch.\n",
+      "name": "PT VPoint Media Solusindo",
+      "position": "Software Implementator & Software Developer",
+      "startDate": "Januari 2016",
+      "endDate": "Juli 2022",
+      "summary": "Menangani implementasi sistem end-to-end, kustomisasi aplikasi, migrasi data, serta technical support untuk software Retail dan Distributor di berbagai klien.\n",
       "highlights": [
-        "Real-time collaboration",
-        "50k users",
-        "Frontend ownership"
-      ]
-    },
-    {
-      "name": "Freelance",
-      "position": "Web Developer",
-      "startDate": "2018",
-      "endDate": "2020",
-      "summary": "Delivered 20+ web projects for small businesses and agencies across\ne-commerce, marketing, and internal tools.\n",
-      "highlights": [
-        "20+ projects",
-        "E-commerce",
-        "Internal tools"
+        "Mengembangkan dan mengkustomisasi software Retail & Distributor menggunakan VB.NET, C#, dan SQL Server sesuai kebutuhan operasional customer.",
+        "Melakukan implementasi software Retail dan Distributor pada customer mulai dari initial setup, konfigurasi database, setting hardware POS, hingga sistem siap operasional.",
+        "Membuat dan memodifikasi query, stored procedures, report, dan struktur database sesuai kebutuhan spesifik aplikasi klien.",
+        "Melakukan migrasi dan import data master serta riwayat transaksi dari sistem lama/Excel ke database aplikasi baru.",
+        "Memberikan pelatihan (training) dan knowledge transfer secara menyeluruh kepada user terkait operasional sistem.",
+        "Memberikan layanan troubleshooting dan post-implementation support (remote maupun kunjungan on-site), serta mendampingi customer selama proses testing, UAT, hingga post go-live."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of California, Berkeley",
-      "area": "B.S. Computer Science",
+      "institution": "Politeknik Surabaya",
+      "area": "D3 Manajemen Informatika",
       "studyType": "",
-      "startDate": "2014",
-      "endDate": "2018"
+      "startDate": "2013",
+      "endDate": "2016"
+    },
+    {
+      "institution": "SMA Muhammadiyah 1 Taman",
+      "area": "SMA",
+      "studyType": "",
+      "startDate": "2010",
+      "endDate": "2013"
     }
   ],
   "skills": [
     {
-      "name": "Frontend",
+      "name": "Programming & Frameworks",
       "keywords": [
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "Framer Motion"
+        "C#",
+        "VB.NET",
+        ".NET Core (8, 9, 10)",
+        "ASP.NET Core (REST API)",
+        "Blazor",
+        "VB6",
+        "MVC",
+        "MVVM",
+        "CQRS"
       ]
     },
     {
-      "name": "Backend",
+      "name": "Database & Performance Tuning",
       "keywords": [
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "Redis",
-        "GraphQL"
+        "SQL Server (Advanced Query & Optimization)",
+        "Database Tuning",
+        "MySQL",
+        "SQLite",
+        "Data Migration & ETL"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "System Architecture & Integration",
       "keywords": [
-        "Docker",
-        "AWS",
-        "CI/CD",
-        "Kubernetes",
-        "Terraform"
+        "System Design & Architecture",
+        "RESTful API Integration",
+        "Payment Gateway (Interactive QRIS)",
+        "Biometric Attendance & Talenta Integration",
+        "Hardware Integration (POS, Barcode, Fingerprint)"
       ]
     },
     {
-      "name": "Tools",
+      "name": "Reporting & Tools",
       "keywords": [
-        "Git",
-        "Figma",
-        "Jest",
-        "Storybook",
-        "Datadog"
+        "DevExpress (XtraReport, GridView)",
+        "Crystal Reports",
+        "Bartender (Barcode & Label)",
+        "Git / GitHub"
+      ]
+    },
+    {
+      "name": "System Analysis & Project Management",
+      "keywords": [
+        "Requirement Gathering & Business Analysis",
+        "BRD & FSD Documentation",
+        "ERD & Database Design",
+        "Flowchart & UML Modeling",
+        "User Stories & Acceptance Criteria",
+        "UAT & Go-Live Support",
+        "Sprint Monitoring & MoM"
+      ]
+    },
+    {
+      "name": "Business & Domain Understanding",
+      "keywords": [
+        "Retail & Point of Sales (POS)",
+        "Distribution & Supply Chain",
+        "Inventory & Warehouse Management",
+        "Sales & Purchasing",
+        "Accounting & Financial Process",
+        "COGS / HPP & Stock Valuation",
+        "Manufacturing Business Process",
+        "Payroll & Attendance Integration"
       ]
     }
   ],
   "projects": [
     {
-      "name": "OpenDesk",
-      "description": "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets.",
+      "name": "Smart Jimpitan",
+      "description": "Sistem digitalisasi administrasi kas dan jimpitan warga. Fitur mencakup pencatatan iuran digital, transparansi arus kas masuk/keluar, dan manajemen data warga. Dibangun dengan arsitektur modern Blazor dan CQRS pattern.",
       "keywords": [
-        "React",
-        "Go",
-        "WebSockets",
-        "PostgreSQL"
+        "Blazor",
+        "CQRS",
+        ".NET Core 9",
+        "Clean Architecture",
+        "SQL Server"
       ],
-      "url": "https://opendesk.example.com"
+      "url": "https://github.com/DMuttaqin/smart-jimpitan"
     },
     {
-      "name": "CodeLens",
-      "description": "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace.",
+      "name": "PIM Payroll & Attendance Integration",
+      "description": "Sistem payroll enterprise terintegrasi dengan data presensi otomatis dari mesin Fingerprint Kantor Pusat & Pabrik, Face Recognition, serta integrasi API platform HR Talenta.",
       "keywords": [
-        "TypeScript",
-        "OpenAI",
-        "VS Code API"
+        ".NET Core 10",
+        "Blazor",
+        "CQRS",
+        "Talenta API",
+        "Biometric Integration",
+        "Payroll"
       ],
-      "url": "https://github.com/yourusername/codelens"
+      "url": "https://github.com/DMuttaqin/pim-payroll"
     },
     {
-      "name": "PriceWatch",
-      "description": "Browser extension that tracks price history on e-commerce sites and alerts users to drops.",
+      "name": "KOI FnB — Point of Sale, KDS & Customer Facing Display",
+      "description": "Ekosistem Point of Sale (POS) F&B lengkap berbasis desktop & web, terintegrasi dengan Kitchen Display System (KDS), Customer Facing Display (CFD) untuk antrean pelanggan, split thermal receipt printing (Dapur vs Bar), pemilihan modifier dinamis & catatan khusus dapur, serta integrasi Interactive QRIS payment gateway.",
       "keywords": [
-        "JavaScript",
-        "Chrome API",
-        "Node.js"
+        "C#",
+        "VB.NET",
+        ".NET Core",
+        "SQL Server",
+        "Blazor",
+        "KDS",
+        "POS",
+        "QRIS",
+        "REST API"
       ],
-      "url": "https://pricewatch.example.com"
+      "url": "https://github.com/DMuttaqin/qris-pos"
     },
     {
-      "name": "Logbook",
-      "description": "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users.",
+      "name": "Enterprise Retail & Manufacturing ERP Suite",
+      "description": "Suite aplikasi ERP komprehensif untuk industri retail dan manufaktur dengan modul Sales, Purchase, Inventory, Accounting, perhitungan HPP/COGS, serta reporting interaktif menggunakan DevExpress XtraReport.",
       "keywords": [
-        "React Native",
-        "SQLite",
-        "Crypto"
+        "C#",
+        "VB.NET",
+        "SQL Server",
+        "DevExpress",
+        "ERP",
+        "Manufacturing",
+        "Inventory"
       ],
-      "url": "https://github.com/yourusername/logbook"
+      "url": "https://github.com/DMuttaqin/retail-manufacturing"
+    },
+    {
+      "name": "Multi-Branch Distribution & Inventory Manager",
+      "description": "Sistem distribusi dan manajemen multi-gudang dengan tracking stok real-time, kontrol batch/expired date, dan integrasi cetak barcode label otomatis via Bartender.",
+      "keywords": [
+        "VB.NET",
+        "SQL Server",
+        "Bartender",
+        "Distribution",
+        "Supply Chain",
+        "Inventory"
+      ],
+      "url": "https://github.com/DMuttaqin/distribution-inventory"
     }
   ],
-  "certificates": [
-    {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "date": "2023",
-      "url": "https://aws.amazon.com/verification"
-    },
-    {
-      "name": "Professional Scrum Master I",
-      "issuer": "Scrum.org",
-      "date": "2022",
-      "url": "https://www.scrum.org/certificates"
-    },
-    {
-      "name": "Google Professional Data Engineer",
-      "issuer": "Google Cloud",
-      "date": "2021",
-      "url": ""
-    }
-  ],
+  "certificates": [],
   "languages": [
     {
-      "language": "English",
+      "language": "Bahasa Indonesia",
       "fluency": "Native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Conversational"
-    },
-    {
-      "language": "Mandarin",
-      "fluency": "Basic"
+      "language": "English",
+      "fluency": "Professional Working"
     }
   ]
 }

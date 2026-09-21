@@ -46,6 +46,13 @@ const rawConfig = rawConfigYaml as unknown as {
     liveUrl: string;
     repoUrl: string;
     featured: boolean;
+    coverImage?: string;
+    gallery?: {
+      title: string;
+      image: string;
+      category?: string;
+      description?: string;
+    }[];
   }[];
   education: { institution: string; degree: string; period: string }[];
   certifications: {
@@ -146,6 +153,24 @@ export interface Testimonial {
   relationship: string;
   quote: string;
   photoUrl: string;
+}
+
+export interface ProjectGalleryItem {
+  title: string;
+  image: string;
+  category?: string;
+  description?: string;
+}
+
+export interface Project {
+  name: string;
+  description: string;
+  tags: string[];
+  liveUrl: string;
+  repoUrl: string;
+  featured: boolean;
+  coverImage?: string;
+  gallery?: ProjectGalleryItem[];
 }
 
 export interface ResumeTheme {
